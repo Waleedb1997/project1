@@ -1,32 +1,35 @@
-body {
-    background-color: red; 
+.container {
+  background-color: red;
 
-    margin-left: auto;
-    margin-right: auto;
-    padding: auto;
+  margin: 50px;
+  padding: 40px;
+  border-radius: 6%;
 }
 
 h1 {
-    text-align: center; color: white;
+  text-align: center;
+  color: white;
 }
 img {
-    display: block;
-    margin: 0 auto;
-    background-color: white; border-radius: 6%;
-    height: 500px; width: 500px;
-    padding: auto;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 6%;
+  height: 500px;
+  width: 500px;
+  padding: auto;
 }
 
 .image {
-    transform: rotate(6deg);
+  transform: rotate(6deg);
 }
 
 p {
-    text-align: center; color: white; font-size: x-large;
+  text-align: center;
+  color: white;
+  font-size: x-large;
 }
 
 button {
-    display: block;
-    margin: 0 auto;
-    
+  margin: 0 auto;
 }
